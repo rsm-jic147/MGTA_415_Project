@@ -60,4 +60,30 @@ The implementation follows these key steps:
 - Applied the trained model to **predict ratings** for Wuxiaworld chapter comments.
 - Evaluated whether the **predicted scores matched expected sentiment patterns**.
 
+## **Demo Instructions**
+
+To test the sentiment analysis model and see how it predicts chapter ratings, follow these steps:
+
+### **Running the App Locally**
+
+1. **Run the Streamlit App**  
+   ```bash
+   streamlit run app.py
+   ```
+
+2. **Interact with the App**  
+   - Enter a **review or chapter comment** in the text box.
+   - The model processes the text and predicts a **rating (1-5 stars)**.
+   - The predicted rating is displayed on the interface.
+
+### **Pretrained Model**
+- The app uses a **fine-tuned BERT model**, stored in the `saved_bert_model` directory.
+- The model loads efficiently using **SafeTensors** for fast inference.
+
+### **Demo Video**
+For a quick preview, check out the recorded **demo video**:  
+[Click here to watch the demo](./demo/app_demo.mp4)
+
+### **Demo Folder Link**
+Find all related demo files [here](./demo).
 
