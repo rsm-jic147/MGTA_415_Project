@@ -1,4 +1,5 @@
 # MGTA415_Project **Predicting Chapter Ratings Using Sentiment Analysis**
+**Written by Jiayin Chen & Boyu Wang**
 
 ## **Project Overview**
 In today's novel market, many authors have transitioned from traditional full-book publications to **serialized storytelling**, updating their stories daily or weekly to maintain reader engagement. However, a major challenge is that **chapter-specific ratings are rarely assigned**, making it difficult for authors to gauge reader satisfaction in real time. This project aims to **predict chapter-level ratings** based on textual comments, leveraging sentiment analysis to provide insights into audience engagement.
